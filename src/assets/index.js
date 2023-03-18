@@ -27,11 +27,19 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import azure from "./icons8-azure.svg";
+import cpp from "./icons8-c++.svg";
+import java from "./icons8-java.svg";
+import selenium from "./icons8-selenium.svg";
 import jobit from "./jobit.png";
+import pytorch from "./pytorch.svg";
 import tripguide from "./tripguide.png";
 
 export {
   logo,
+  selenium,
+  azure,
+  java,
   backend,
   creator,
   mobile,
@@ -59,5 +67,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  pytorch,
+  cpp
 };
 

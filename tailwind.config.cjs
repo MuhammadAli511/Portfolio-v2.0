@@ -12,7 +12,7 @@ module.exports = {
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
-        "blue1": "#00b0ff",
+        "blue1": "#9552ff",
         "font-purple": '#9552ff'
       },
       boxShadow: {
@@ -20,9 +20,6 @@ module.exports = {
       },
       screens: {
         xs: "450px",
-      },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/gradient.png')",
       },
     },
   },
