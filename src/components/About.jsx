@@ -135,8 +135,8 @@ const About = () => {
       <div className='green-pink-gradient p-[1px] rounded-[20px] shadow-card flex justify-between max-w-full'>
         <div className='bg-tertiary rounded-[20px] py-5 px-1 md:px-12 flex justify-between items-center flex-col max-w-full'>
           <img src="https://img.icons8.com/fluency/96/null/source-code.png" alt="logo" className="w-20 h-20 md:w-32 md:h-32" />
-          <h1 className='text-white text-base md:text-[1.7rem] font-bold mt-5'>Web Development</h1>
-          <p className='text-white text-sm md:text-[1.1rem] text-center mt-5'>I have experience in creating fast, secure, and engaging websites that are upto the mark, responsive and user-friendly</p>
+          <h1 className='text-white text-base md:text-[1.7rem] font-bold mt-5'>Software Development</h1>
+          <p className='text-white text-sm md:text-[1.1rem] text-center mt-5'>I am skilled in building reliable and scalable software solutions that meet the needs of businesses and individuals, utilizing the latest technologies and best practices</p>
           <div className='flex justify-center items-center gap-3 sm:gap-5 mt-5'>
             <div className='flex justify-center items-center flex-col transform transition duration-500 hover:scale-125'>
               <img src={cpp} alt="c++" className='w-14 h-14 sm:w-30 sm:h-30' />
