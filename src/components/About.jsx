@@ -7,7 +7,7 @@ const About = () => {
     <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10 justify-items-center mx-4 pt-20">
       <div className='green-pink-gradient p-[1px] rounded-[20px] shadow-card flex justify-between max-w-full'>
         <div className='bg-tertiary rounded-[20px] py-5 px-1 md:px-12 flex justify-between items-center flex-col max-w-full'>
-          <img src={logo} alt="logo" className="w-20 h-20 md:w-32 md:h-32" />
+          <img src="https://img.icons8.com/color/96/null/web.png" alt="logo" className="w-20 h-20 md:w-32 md:h-32" />
           <h1 className='text-white text-base md:text-[1.7rem] font-bold mt-5'>Web Development</h1>
           <p className='text-white text-sm md:text-[1.1rem] text-center mt-5'>I have experience in creating fast, secure, and engaging websites that are upto the mark, responsive and user-friendly</p>
           <div className='flex justify-center items-center gap-3 sm:gap-5 mt-5'>
@@ -85,7 +85,7 @@ const About = () => {
 
       <div className='green-pink-gradient p-[1px] rounded-[20px] shadow-card flex justify-between max-w-full'>
         <div className='bg-tertiary rounded-[20px] py-5 px-1 md:px-12 flex items-center flex-col max-w-full'>
-          <img src={logo} alt="logo" className="w-20 h-20 md:w-32 md:h-32" />
+          <img src="https://img.icons8.com/external-prettycons-flat-prettycons/94/null/external-mobile-development-ui-mobile-prettycons-flat-prettycons.png" alt="logo" className="w-20 h-20 md:w-32 md:h-32" />
           <h1 className='text-white text-base md:text-[1.7rem] font-bold mt-5'>App Development</h1>
           <p className='text-white text-sm md:text-[1.1rem] text-center mt-5'>Crafting app experiences that prioritize user satisfaction and performance, my expertise lies in developing intuitive, feature-rich apps</p>
           <div className='flex justify-center items-center gap-3 sm:gap-5 mt-5'>
@@ -107,7 +107,7 @@ const About = () => {
 
       <div className='green-pink-gradient p-[1px] rounded-[20px] shadow-card flex justify-between max-w-full'>
         <div className='bg-tertiary rounded-[20px] py-5 px-1 md:px-12 flex items-center flex-col max-w-full'>
-          <img src={logo} alt="logo" className="w-20 h-20 md:w-32 md:h-32" />
+          <img src="https://img.icons8.com/external-filled-line-andi-nur-abdillah/96/null/external-Neural-Network-artificial-intelligence-(filled-line)-filled-line-andi-nur-abdillah.png" alt="logo" className="w-20 h-20 md:w-32 md:h-32" />
           <h1 className='text-white text-base md:text-[1.7rem] font-bold mt-5'>ML / AI</h1>
           <p className='text-white text-sm md:text-[1.1rem] text-center mt-5'>Expertise in Machine Learning and Artificial Intelligence techniques, creating intelligent systems that leverage data to automate tasks and improve decision-making</p>
           <div className='flex justify-center items-center gap-3 sm:gap-5 mt-5'>
@@ -134,7 +134,7 @@ const About = () => {
 
       <div className='green-pink-gradient p-[1px] rounded-[20px] shadow-card flex justify-between max-w-full'>
         <div className='bg-tertiary rounded-[20px] py-5 px-1 md:px-12 flex justify-between items-center flex-col max-w-full'>
-          <img src={logo} alt="logo" className="w-20 h-20 md:w-32 md:h-32" />
+          <img src="https://img.icons8.com/fluency/96/null/source-code.png" alt="logo" className="w-20 h-20 md:w-32 md:h-32" />
           <h1 className='text-white text-base md:text-[1.7rem] font-bold mt-5'>Web Development</h1>
           <p className='text-white text-sm md:text-[1.1rem] text-center mt-5'>I have experience in creating fast, secure, and engaging websites that are upto the mark, responsive and user-friendly</p>
           <div className='flex justify-center items-center gap-3 sm:gap-5 mt-5'>
