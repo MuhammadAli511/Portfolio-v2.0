@@ -21,10 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ezwifi from "./company/ezwifi.png";
+import fast from "./company/fast.png";
+import funavry from "./company/funavry.png";
+import quest from "./company/quest.png";
 
 import carrent from "./carrent.png";
 import azure from "./icons8-azure.svg";
@@ -60,14 +60,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   pytorch,
-  cpp
+  cpp,
+  ezwifi,
+  fast,
+  quest,
+  funavry,
 };
 

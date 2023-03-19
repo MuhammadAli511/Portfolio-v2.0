@@ -1,6 +1,6 @@
 import React from 'react';
-
 import { azure, cpp, java, logo, pytorch, selenium } from "../assets";
+import { SectionWrapper } from "../hoc";
 
 const About = () => {
   return (
@@ -26,10 +26,6 @@ const About = () => {
             <div className='flex justify-center items-center flex-col transform transition duration-500 hover:scale-125'>
               <img src="https://img.icons8.com/color/96/000000/nextjs.svg" alt="Next.js" className='w-14 h-14 sm:w-30 sm:h-30' />
               <p className='text-xs sm:text-base'>Next.js</p>
-            </div>
-            <div className='flex justify-center items-center flex-col transform transition duration-500 hover:scale-125'>
-              <img src="https://img.icons8.com/color/96/000000/redux.svg" alt="redux" className='w-14 h-14 sm:w-30 sm:h-30' />
-              <p className='text-xs sm:text-base'>Redux</p>
             </div>
             <div className='flex justify-center items-center flex-col transform transition duration-500 hover:scale-125'>
               <img src="https://img.icons8.com/color/96/000000/vue-js.svg" alt="Vue.js" className='w-14 h-14 sm:w-30 sm:h-30' />
@@ -158,10 +154,6 @@ const About = () => {
               <img src="https://img.icons8.com/color/96/000000/golang.svg" alt="redux" className='w-14 h-14 sm:w-30 sm:h-30' />
               <p className='text-xs sm:text-base'>GoLang</p>
             </div>
-            <div className='flex justify-center items-center flex-col transform transition duration-500 hover:scale-125'>
-              <img src="https://img.icons8.com/color/96/000000/dart.svg" alt="Vue.js" className='w-14 h-14 sm:w-30 sm:h-30' />
-              <p className='text-xs sm:text-base'>Dart</p>
-            </div>
           </div>
           <div className='flex justify-center items-center gap-3 sm:gap-5 mt-5'>
             <div className='flex justify-center items-center flex-col transform transition duration-500 hover:scale-125'>
@@ -216,4 +208,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, "about");
