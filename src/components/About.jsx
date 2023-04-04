@@ -180,7 +180,7 @@ const About = () => {
           <div className='flex justify-center items-center gap-3 sm:gap-5 mt-5'>
             <div className='flex justify-center items-center flex-col transform transition duration-500 hover:scale-125'>
               <img src="https://img.icons8.com/color/96/000000/amazon-web-services.svg" alt="material ui" className='w-14 h-14 sm:w-30 sm:h-30' />
-              <p className='text-xs sm:text-base'>Material UI</p>
+              <p className='text-xs sm:text-base'>AWS</p>
             </div>
             <div className='flex justify-center items-center flex-col transform transition duration-500 hover:scale-125'>
               <img src={azure} alt="Azure" className='w-14 h-14 sm:w-30 sm:h-30' />
@@ -188,11 +188,11 @@ const About = () => {
             </div>
             <div className='flex justify-center items-center flex-col transform transition duration-500 hover:scale-125'>
               <img src="https://img.icons8.com/color/96/000000/docker.svg" alt="css3" className='w-14 h-14 sm:w-30 sm:h-30' />
-              <p className='text-xs sm:text-base'>CSS3</p>
+              <p className='text-xs sm:text-base'>Docker</p>
             </div>
             <div className='flex justify-center items-center flex-col transform transition duration-500 hover:scale-125'>
               <img src="https://img.icons8.com/color/96/000000/kubernetes.svg" alt="html5" className='w-14 h-14 sm:w-30 sm:h-30' />
-              <p className='text-xs sm:text-base'>HTML5</p>
+              <p className='text-xs sm:text-base'>Kubernetes</p>
             </div>
           </div>
           <div className='flex justify-center items-center gap-5 mt-5'>
