@@ -5,11 +5,15 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Skills",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -22,31 +26,16 @@ import {
   
   const experiences = [
     {
-      title: "Junior Software Engineer",
+      title: "Software Engineer",
       company_name: "EzWifi",
       icon: ezwifi,
       iconBg: "#383E56",
       date: "March 2023 - Present",
       points: [
-        "Implementing Redis caching to optimize dashboard load times and improve overall system performance",
+        "Developed a VueJS dashboard to effectively manage and analyze customer statistics, providing valuable insights for optimizing business strategies.",
         "Developing and maintaining NodeJS backend codebase for EzWifi's ad-based free hotspot provider platform",
-        "Collaborating with the design team to develop and improve the user interface using VueJS and TailwindCSS",
-        "Creating and managing API endpoints for various features of the platform",
-        "Researching and implementing new technologies to improve system efficiency and user experience.",
-      ],
-    },
-    {
-      title: "Software Engineer Intern",
-      company_name: "Quest Lab",
-      icon: quest,
-      iconBg: "#E6DEDD",
-      date: "Jul 2022 - Present",
-      points: [
-        "Collaborated with a team members to create a real-time video conferencing app that translates sign language into speech using React, Flask, and Tensorflow",
-        "Designed and developed features for the web application, including real-time chat, meeting controls, and ASL translation",
-        "Conducted unit and integration testing to ensure the stability and scalability of the application",
-        "Worked with both NoSQL databases, i.e. MongoDB, to store and manage application data",
-        "Implemented authentication and authorization features to ensure secure access to the application",
+        "Collaborated on building a Flutter app that enables customers to connect to free hotspots and earn money through ad displays, enhancing user engagement and revenue generation",
+        "Currently involved in the migration process from NodeJS to NestJS, leveraging the power of NestJS's modular and scalable architecture for improved performance and maintainability",
       ],
     },
     {
@@ -80,67 +69,22 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      title: "Project 1",
+      description: "This is a description of the project",
+      image: "https://mhmz.dev/images/projects/quran.png",
+      links: [
+        { name: "Website", url: "https://project-website.com" },
+        { name: "Github", url: "https://github.com/project" }
+      ]
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      title: "Project 1",
+      description: "This is a description of the project",
+      image: "https://mhmz.dev/images/projects/quran.png",
+      links: [
+        { name: "Website", url: "https://project-website.com" },
+        { name: "Github", url: "https://github.com/project" }
+      ]
     },
   ];
   

@@ -23,7 +23,7 @@ const Navbar = () => {
         </Link>
 
 
-        <ul className="hidden sm:flex items-center gap-10">
+        {/* <ul className="hidden sm:flex items-center gap-10">
           {navLinks.map((link) => (
 
             <li
@@ -35,15 +35,15 @@ const Navbar = () => {
             </li>
 
           ))}
-        </ul>
+        </ul> */}
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        {/* <div className="sm:hidden flex flex-1 justify-end items-center">
           <img src={toggle ? close : menu} alt="menu" className="w-[28px] h-[28px] cursor-pointer" onClick={() => { setToggle(!toggle) }} />
 
           <div className={`fixed top-0 right-0 w-[260px] h-full bg-primary z-10 ${toggle ? "translate-x-0" : "translate-x-full"}`}>
             <div className="flex items-center justify-center">
               <img src={close} alt="close" className="absolute top-6 right-5 w-[28px] h-[28px] cursor-pointer" onClick={() => { setToggle(!toggle) }} />
-              
+
               <ul className="flex flex-col items-center gap-10 mt-28">
                 {navLinks.map((link) => (
 
@@ -62,7 +62,7 @@ const Navbar = () => {
             </div>
           </div>
 
-        </div>
+        </div> */}
 
       </div>
     </nav>
